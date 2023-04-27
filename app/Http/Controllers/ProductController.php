@@ -16,4 +16,10 @@ class ProductController extends Controller
         return response()->json(['Status'=>'Success!','Products'=>$products]);
     }
 
+    public function search($name){
+
+        return Product::where('name',$name)->get();
+
+    }
+
 }
