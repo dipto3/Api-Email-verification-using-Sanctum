@@ -26,14 +26,14 @@ class AuthServiceProvider extends ServiceProvider
     {
         $this->registerPolicies();
 
-        //
+
         // VerifyEmail::toMailUsing(function ($notifiable, $url) {
-        //     $spaUrl = "http://127.0.0.1:8000/api/verify-email/=".$url;
+
 
         //     return (new MailMessage)
         //         ->subject('Verify Email Address')
         //         ->line('Click the button below to verify your email address.')
-        //         ->action('Verify Email Address', $spaUrl);
+        //         ->action('Verify  Address', $Url);
         // });
     }
 }
